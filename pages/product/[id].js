@@ -2,7 +2,6 @@ import React from "react";
 import { getFetch } from "../../helpers/fetchRequests";
 import productStyles from "../../styles/product.module.scss";
 const ProductITem = (props) => {
-  console.log("props", props);
   return (
     <div>
       <div className={productStyles.__product_heading}>

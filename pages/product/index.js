@@ -19,7 +19,6 @@ const product = (props) => {
 export default product;
 
 export async function getStaticProps(context) {
-  console.log("context", context);
   const [data, data2] = await Promise.all([
     getFetch("https://pokeapi.co/api/v2/pokemon/ditto"),
     getFetch("https://jsonplaceholder.typicode.com/photos"),
