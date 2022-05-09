@@ -5,9 +5,7 @@ const TicTac = () => {
   const [currentPlayer, setCurrentPlayer] = useState({});
   const [winner, setWinner] = useState(false);
   const [winningCombinationArray, setWinningCombinationArray] = useState([]);
-
   const currentValue = React.useRef("O");
-
   const winningCombination = [
     [0, 1, 2],
     [3, 4, 5],
